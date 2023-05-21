@@ -14,18 +14,23 @@ useHead(() => ({
 </script>
 
 <template>
-  <div class="flex items-center justify-center h-screen bg-gray-200">
-    <div class="container">
-      <div class="bg-white rounded-lg shadow-lg p-5 md:p-20 mx-2">
-        <div class="text-center">
-          <h2
-            class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl"
-          >
-            Fenish.<span class="text-indigo-600">DEV</span>
-          </h2>
-          <h3 class="text-xl md:text-xl mt-10">Under Construction</h3>
-        </div>
-      </div>
+  <div class="bg-black min-h-screen min-w-screen overflow-x-hidden relative">
+    <!-- Background Effects Section -->
+
+    <div
+      class="absolute right-80 top-0 w-[120px] h-[120px] gradient__blue__soft"
+    />
+    <div
+      class="absolute -top-32 -right-52 gradient__pink__medium w-[320px] h-[320px] blur-[320px]"
+    />
+    <Particles />
+
+    <!-- Background Effects Section -->
+    <div
+      class="flex flex-col items-center justify-center min-h-screen min-w-screen"
+    >
+      <span class="text-5xl text-violet-900/70">Fenish</span>
+      <span class="text-sm text-white">- Developer -</span>
     </div>
   </div>
 </template>
