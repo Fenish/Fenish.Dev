@@ -29,8 +29,7 @@ useHead(() => ({
     <div
       class="flex flex-col items-center justify-center min-h-screen min-w-screen"
     >
-      <span class="text-5xl text-violet-900/70">Fenish</span>
-      <span class="text-sm text-white">- Developer -</span>
+      <Panel />
     </div>
   </div>
 </template>
