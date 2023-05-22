@@ -34,7 +34,9 @@
   }
 
   .gradient__white__soft {
-    @apply blur-[750px];
-    background: rgba(255, 255, 255, 0.6);
+    @apply bg-white blur-[50px];
+  }
+  .gradient__white__hard {
+    @apply bg-gradient-to-tl from-white to-gray-100 blur-[50px];
   }
 }
