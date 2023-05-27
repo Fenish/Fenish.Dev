@@ -26,9 +26,7 @@ useHead(() => ({
     <Particles />
 
     <!-- Background Effects Section -->
-    <div
-      class="flex flex-col items-center justify-center min-h-screen min-w-screen"
-    >
+    <div class="flex items-center justify-center min-h-screen min-w-screen">
       <Panel />
     </div>
   </div>
