@@ -3,7 +3,6 @@ defineProps({
   color: {
     type: String,
     required: true,
-    default: "rgba(255, 255, 255, 0.1)",
   },
 });
 
@@ -31,7 +30,7 @@ onMounted(() => {
 <template>
   <div class="w-full h-full absolute pointer-events-none" ref="parent">
     <div
-      class="absolute w-64 h-64 blur-3xl top-1/2 -translate-y-1/2"
+      class="absolute w-64 h-64 blur-3xl top-1/2 -translate-y-1/2 opacity-10 md:opacity-20"
       :style="{ backgroundColor: color }"
     />
   </div>

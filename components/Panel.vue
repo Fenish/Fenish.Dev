@@ -1,34 +1,38 @@
 <template>
   <div
-    class="bg-purple-900/30 relative flex overflow-hidden justify-center items-center p-0.5 rounded-md"
+    class="bg-purple-900/30 relative flex overflow-hidden justify-center items-center p-0.5 rounded-md mx-5 md:m-0"
   >
     <div
       class="absolute left-0 top-0 w-10 h-10 bg-white blur-2xl border-animation"
     />
-    <div class="bg-black-300 relative flex rounded-md text-white h-96">
-      <GradientAnimation />
-      <GradientAnimation color="rgba(167, 0, 255, 0.2)" />
+    <div class="bg-black-300 relative flex rounded-md text-white">
+      <GradientAnimation color="rgba(255, 255, 255)" />
+      <GradientAnimation color="rgba(167, 0, 255)" />
 
-      <div class="px-20 py-20">
+      <div class="px-10 md:px-20 py-20">
         <div class="flex">
-          <div class="w-14 h-14 relative overflow-hidden rounded-full">
+          <div
+            class="h-10 w-10 md:w-14 md:h-14 relative overflow-hidden rounded-full"
+          >
             <img
               draggable="false"
               src="../assets/img/avatar-1.png"
-              class="absolute top-11 left-1 scale-150 select-none"
+              class="absolute top-6 left-0.5 md:top-11 md:left-1 scale-150 select-none"
             />
           </div>
           <div class="flex flex-col ml-5">
             <div>
-              <span class="text-white text-3xl">Hi, I am Talha.</span>
-              <span class="text-3xl hand-shake absolute">👋</span>
+              <span class="text-white md:text-3xl">Hi, I am Talha.</span>
+              <span class="md:text-3xl hand-shake absolute">👋</span>
             </div>
 
-            <span class="text-zinc-500">Full stack developer</span>
+            <span class="text-sm md:text-lg text-zinc-500"
+              >Full stack developer</span
+            >
           </div>
         </div>
 
-        <p class="max-w-xl mt-12 text-gray-300">
+        <p class="max-w-xl mt-12 text-gray-300 text-sm md:text-lg">
           Full-stack developer with a passion for backend development.
           Proficient in HTML, CSS, JavaScript, and backend technologies. Skilled
           in designing visually appealing websites and focused on delivering
