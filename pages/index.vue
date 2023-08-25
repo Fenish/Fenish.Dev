@@ -49,7 +49,7 @@ const stacks = {
     <Particles />
 
     <!-- Background Effects Section -->
-    <div class="mt-60 flex items-center justify-center flex-col">
+    <div class="min-h-screen flex items-center justify-center flex-col">
       <Panel />
       <div class="grid grid-cols-2 gap-4 content-start md:grid-cols-5 mt-10">
         <StackCards
